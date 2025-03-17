@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&family=Jost:wght@400;500;700&family=Montserrat:wght@400;700&family=Nanum+Gothic&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&family=Oswald:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width" , initial-scale="1" />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: jost, sans-serif;
+        font-weight: 400;
+        line-height: 1.5em;
+        color: #615e5d;
+        margin: 0;
+      }
+
+      a {
+        color: #00a36c;
+      }
+
+      a:hover {
+        color: #fb8c23;
+      }
+
+      .logo {
+        width: 175px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      nav,
+      nav ul {
+        display: inline-block;
+        padding: 0;
+      }
+
+      nav ul li {
+        list-style: none;
+        display: inline-block;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        padding: 0.5em 1em;
+        color: #1f1b1a;
+      }
+
+      .hero {
+        background: #f4f2f0 url("images/banner.png");
+        background-size: cover;
+        min-height: 400px;
+        padding: 2em;
+      }
+
+      .hero-text {
+        max-width: 450px;
+        margin: auto;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 60px;
+        font-family: Archivo, sans-serif;
+        color: #1f1b1a;
+        line-height: 1.2em;
+        font-weight: 700;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-family: Archivo, sans-serif;
+        color: #1f1b1a;
+        line-height: 1.2em;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      .hero-text p {
+        font-size: 24px;
+        line-height: 1.5em;
+      }
+
+      .button {
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 999px;
+        background-color: #ff3000;
+        padding: 1em 3em;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #fff;
+      }
+
+      .button:hover {
+        color: #fff;
+        background-color: #fb8c23;
+      }
+
+      .how-it-works {
+        max-width: 1350px;
+        margin: auto;
+        padding: 4em 2em;
+      }
+
+      .how-it-works div {
+        width: 32%;
+        display: inline-block;
+        padding: 20px;
+        vertical-align: top;
+      }
+
+      footer {
+        background-color: #444;
+        padding: 2em;
+      }
+
+      footer nav ul li a {
+        color: #fff;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="images/logo.svg" alt="Galatea Food" />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Pages</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Healthy food for busy people</h1>
+          <p>
+            Imagine devouring delicious, healthy meals daily without so much as
+            lifting a pot.
+          </p>
+          <a class="button" href="howitworks.html">How it works</a>
+        </div>
+      </section>
+      <section class="how-it-works">
+        <div>
+          <h2>Pick a plan</h2>
+          <p>
+            Whether cooking for yourself or your household, we have a flexible
+            plan to match your lifestyle. Need to cancel, change meals, or skip
+            a week? Not a problem.
+          </p>
+        </div>
+        <div>
+          <h2>Get your delivery</h2>
+          <p>
+            Each week, you’ll open simple step-by-step recipes complete with
+            nutritional information and fresh, pre-measured ingredients to get
+            you whipping up delicious dinners in no time.
+          </p>
+        </div>
+        <div>
+          <h2>Eat & enjoy!</h2>
+          <p>
+            The old "what do you want to eat?" conversation is about to be
+            banished from your life. Welcome to a world where dinner is always
+            planned, simple and delicious.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <img class="logo" src="images/logo.svg" alt="Galatea Food" />
+      <nav>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://facebook.com"
+              ><img alt="Facebook" src="images/facebook.svg"
+            /></a>
+          </li>
+          <li>
+            <a href="https://twitter.com"
+              ><img alt="Twitter" src="images/twitter.svg"
+            /></a>
+          </li>
+          <li>
+            <a href="https://instagram.com"
+              ><img alt="Instagram" src="images/instagram.svg"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

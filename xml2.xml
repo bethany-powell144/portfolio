@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="xml2css.css"?>
+<BusinessCard>
+    <Name>Bethany Powell</Name>
+    <Email>bethanypowell@weber.edu</Email>
+    <Phone type="personal" primary="primary">801-336-8018</Phone>
+    <Phone type="work">801-626-6873</Phone>
+    <!-- This is for practice purposes only. -->
+</BusinessCard>

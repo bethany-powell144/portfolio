@@ -1,0 +1,35 @@
+BusinessCard {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 300px;
+  padding: 10pt;
+  margin: 5px;
+  border: 1px solid #0d3427;
+  background-color: #dacfe5;
+  text-align: left;
+}
+
+Name {
+  color: #0d3427;
+  font-weight: bold;
+  font-size: 140%;
+  display: block;
+  margin-bottom: 3%;
+}
+
+Email {
+  color: #523819;
+  font-size: 90%;
+  display: block;
+}
+
+Phone {
+  color: #0d3427;
+  font-size: 90%;
+  display: block;
+  margin-top: 3%;
+}
+
+Phone:before {
+  content: attr(type) ": ";
+}
